@@ -1,0 +1,41 @@
+.Work{
+@apply flex h-96 p-3 w-auto bg-black;
+}
+.awesome{
+@apply flex flex-col text-3xl  ;
+}
+.b{
+@apply w-80 rounded-md shadow-sm bg-green-900 text-white;
+}
+.ss{
+@apply  text-6xl text-green-900 mt-52 ml-10;
+}
+.t{
+@apply relative text-2xl  mt-5 ml-5 text-black;
+}
+.b{
+@apply relative ml-10;
+}
+.m-sec{
+@apply text-6xl text-green-900 flex flex-row ;
+}
+.m-right{
+@apply relative flex justify-end;
+}
+.m-main{
+    left: 9rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  top: 2rem;
+  background: white;
+  z-index: 2;
+  }
+.w-mainCircle > * {
+  position: absolute;
+}
+.m-sec{
+@apply -left-12 top-20;
+}

@@ -1,0 +1,68 @@
+.ab-con{
+display:grid;
+grid-template-columns: 35% 50%;
+gap:15%;
+}
+.ab-me{
+ width:100%;
+aspect-ratio:1/1;
+border-radius:2rem;
+background:rgb(244, 175, 50);
+background:linear-gradient(50deg);
+display:grid;
+place-items:center;
+
+
+}
+
+
+.ab-t{
+@apply text-4xl text-green-900 font-bold flex justify-end mr-[20%];
+}
+
+.ab-img{
+ border-radius:2rem;
+overflow:hidden;
+transform:rotate(10deg);
+}
+.ab-img{
+@apply flex basis-1/2 relative bg-no-repeat h-full w-full ml-24 ;
+}
+.ab-b{
+@apply  h-auto mt-10
+  bg-indigo-500 flex
+  relative shadow-indigo-500/50
+   text-white font-medium 
+   text-xs leading-tight w-40 p-4 uppercase 
+   rounded shadow-md hover:bg-blue-700 
+   hover:shadow-lg focus:bg-blue-700 focus:shadow-lg
+    focus:outline-none focus:ring-0 active:bg-blue-800
+ active:shadow-lg transition duration-150 ease-in-out;
+}
+
+
+.des{
+@apply mr-20 flex ;
+}
+
+.exp{
+@apply flex  relative  mt-14 mr-10;
+}
+.ach{
+@apply  justify-end py-1 gap-x-20;
+}
+.cir{
+@apply w-16 h-16 bg-white relative flex items-center justify-end
+text-2xl font-bold mb-8 border-4 border-indigo-200 border-x-indigo-500 -top-2 -left-2 -right-6 -bottom-2  gap-20 z-[-1] rounded-full;
+}
+.tt{
+@apply flex justify-center mr-3;
+}
+.last{
+@apply text-green-700 mr-10;
+}
+.cir-tt{
+@apply flex flex-col text-lg justify-end  ;
+}
+
+

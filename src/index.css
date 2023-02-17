@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+:root{
+@apply bg-white ;
+}
+
+.header{
+    @apply  flex-row flex justify-between w-screen bg-transparent   h-20 items-center px-16;
+ }
+ 
+ .title{
+    @apply  text-white font-bold text-3xl;
+}
+ .nav{
+     @apply text-white font-bold p-5 flex justify-end  md:flex hover:bg-blend-color-dodge;
+ }
+ 
+.bu{
+  @apply   hover:text-black rounded-md shadow-sm bg-blue-900 text-white  text-xl px-5 transition duration-150 ease-in-out;
+}
+.body{
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-5xl font-extrabold;
+}
+.list{
+  @apply text-blue-900 flex justify-end px-7 text-2xl ;
+}
+.item{
+  @apply  hover:text-black text-lg justify-end px-2 ;
+}
+.hp{
+  @apply  text-black  ;
+
+}
+.intro{
+  @apply  flex  flex-col absolute font-extrabold top-56;
+}
+.t1{
+  @apply py-2 text-5xl text-blue-900 ;
+}
+.t2{
+  @apply py-2 text-4xl text-yellow-300 top-11;
+}
+.t3{
+  @apply relative inset-y-0 left-0 text-sm;
+}
+.b2{
+  @apply  hover:text-black w-32 rounded-md shadow-sm bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white ;
+}
+.my-int{
+@apply relative left-20 top-40 bottom-20 items-center;
+}
+.social{
+@apply flex flex-row px-5 text-2xl relative text-white top-40 bottom-20 m-10 ;
+}
+.git{
+@apply px-5
+} 
+.ins{
+@apply px-5
+}
+.lin{
+@apply px-5
+}
+.ul{
+@apply flex flex-row mt-0 mr-6 space-x-8 text-lg font-medium text-right;
+}
+.nav{
+@apply bg-gray-50 bg-transparent;
+}
+.li{
+@apply text-gray-900 dark:text-white text-left hover:text-green-900;
+}
+
+
+.Skill{
+@apply  h-screen p-3 flex flex-row relative w-auto overflow-hidden ;
+}
+.sk-t{
+@apply text-4xl text-green-900 font-bold  relative flex justify-center ;
+}
+.sk-st{
+@apply text-sm text-black font-bold  flex justify-center mb-10;
+}
+.sk-con{
+@apply flex flex-row relative ml-48 mr-48 mb-5 ;
+}
+.sk-con-l{
+border: 4px solid rgba(500,200,212,0.1);
+padding:2rem 4rem;
+border-radius:1.25rem;
+border-color:indigo-500/100 ;
+}
+.sk-con-r{
+border: 4px solid rgba(100,200,212,0.1);
+padding:2rem 4rem;
+border-radius:1.1rem;
+
+}
+.sk-con-l{
+@apply flex flex-row basis-1/2 relative place-items-end mr-9  border-indigo-200 border-x-indigo-500  ;
+}
+.sk-con-ll{
+  @apply basis-1/2;
+}
+.sk-con-lr{
+  @apply basis-1/2;
+}
+.sk-con-r{
+@apply  basis-1/2 flex flex-row relative  place-items-end  border-indigo-200 border-x-indigo-500 ;
+}
+.sk-con-rl{
+  @apply basis-1/2;
+}
+.sk-con-rr{
+  @apply basis-1/2 justify-end;
+}
+.con-tt{
+@apply text-2xl ml-24 text-green-900 relative mb-10 flex flex-row justify-center shadow-2xl ;
+}
+
+
+.service{
+@apply  h-screen p-3 w-auto flex flex-col relative justify-center mr-0 overflow-hidden;
+}
+.ser-t{
+@apply text-4xl text-green-900 font-bold  relative flex justify-center mt-5 ml-16 ;
+}
+.ser-st{
+@apply text-sm text-black font-bold  flex justify-center mt-5 ml-16;
+}
+.des{
+@apply mt-5 ml-[40%] relative flex flex-row;
+}
+.ser-con{
+@apply flex flex-row mt-16 ml-16  mb-5 justify-between  ;
+}
+.ser-con-f{
+@apply basis-1/4 flex flex-col relative mr-9 outline-blue-500/50 text-green-900 place-content-end  hover:bg-gradient-to-r from-cyan-500 to-blue-500 ;
+}
+.ser-con-s{
+@apply basis-1/4   text-green-900 mr-9  hover:bg-gradient-to-r from-cyan-500 to-blue-500;
+}
+.ser-con-t{
+@apply basis-1/4   text-green-900 mr-9  hover:bg-gradient-to-r from-cyan-500 to-blue-500 ;
+}
+.ser-con-fo{
+@apply basis-1/4   text-green-900 mr-9 hover:bg-gradient-to-r from-cyan-500 to-blue-500 ;
+}
+.ser-con-f{
+border: 8px solid rgba(0,0,0,0.1);
+padding:2rem 4rem;
+border-radius:1.25rem;
+border-color: indigo-500/100;
+
+}
+.ser-con-s{
+border: 8px solid rgba(0,0,0,0.1);
+padding:2rem 4rem;
+border-radius:1.1rem;
+border-color:indigo-500/100 ;
+}
+.ser-con-t{
+border: 8px solid rgba(0,0,0,0.1);
+padding:2rem 4rem;
+border-radius:1.25rem;
+border-color:indigo-500/100 ;
+}
+.ser-con-fo{
+border: 8px solid rgba(0,0,0,0.1);
+padding:2rem 4rem;
+border-radius:1.25rem;
+border-color:indigo-500/100 ;
+}
+.ic{
+@apply text-4xl flex justify-center hover:text-black mt-0 ;
+}
+.ser-tt{
+@apply flex flex-row text-start mb-0 hover:text-white ;
+}
+.ser-b{
+@apply flex space-x-2 justify-center  px-6 py-2.5 bg-indigo-500  shadow-indigo-500/50 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out;
+}
+

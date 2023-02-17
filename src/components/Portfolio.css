@@ -1,0 +1,49 @@
+.por-con{
+@apply flex flex-row basis-1/3 justify-evenly px-10  ;
+}
+.por-item{
+@apply flex-col justify-center px-16 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white ;
+}
+.por-item{
+background:var(--color-bg-variant);
+border: 4px solid transparent;
+transition:var(--transition);
+gap:10px;
+}
+.port-item:hover{
+border-color:var(--color-primary-variant);
+background:transparent;
+}
+.por-item-img{
+@apply border-r-4 w-72 h-60 overflow-hidden mt-0;
+}
+.por-item-h3{
+margin: 1.2 0 2rem ;
+display:flex-row;
+gap:10rem;
+position:justify-center;
+}
+.por-m{
+@apply text-green-900 text-base justify-center ml-10;
+}
+.btn{
+@apply space-x-2 justify-center px-6 py-2.5 bg-indigo-500  shadow-indigo-500/50 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out;
+}
+.por-btn{
+@apply flex-row justify-between pr-5;
+}
+
+.por-t{
+@apply text-4xl text-green-900 font-bold  relative flex justify-center mt-5 ml-16  ;
+}
+.por-st{
+@apply text-sm text-black font-bold  flex justify-center mt-5 ml-16;
+}
+
+.por-item{
+border: 8px solid rgba(0,0,0,0.1);
+padding:2rem 2rem;
+border-radius:2rem;
+border-color: indigo-500/100;
+display:inline-block;
+}
